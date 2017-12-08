@@ -74,7 +74,7 @@ header.flex {
   margin-left: 4rem;
 }
 
-.banner-info h2 {
+.banner-info h1 {
   font-size: 3rem;
 }
 
@@ -93,6 +93,43 @@ header.flex {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
+}
+
+/* Main-Section-1 */
+
+.motivation.flex {
+  flex-direction: column;
+  width: 60%;
+}
+
+.section-image img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem 1.5rem;
+}
+
+.information.flex {
+  flex-direction: column;
+  width: 35%;
+}
+
+.info.flex {
+}
+
+.info img {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+}
+
+.details.flex {
+  flex-direction: column;
+  width: 65%;
+}
+
+.details.flex h4 {
+
 }
 
 /* Footer Section */
