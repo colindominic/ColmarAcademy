@@ -16,6 +16,7 @@ html {
 header {
   height: 4rem;
   position: fixed;
+  top: 0;
   z-index: 10;
   background-color: white;
 }
@@ -44,16 +45,60 @@ header.flex {
 /* Banner Section */
 
 .banner {
-  position: relative;
-  top: 4rem;
+  margin-top: 4rem;
+  background-color: grey;
+}
+
+.banner.flex {
+  align-items: center;
+}
+
+.banner-image {
+  max-width: 60%;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem 1.5rem;
+}
+
+.banner-info {
+  width: 26%;
+}
+
+.banner-info.flex {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 4rem;
+}
+
+.banner-info h2 {
+  font-size: 3rem;
+}
+
+.banner-info h4 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.banner-info .button p {
+  font-size: 1.5rem;
+}
+
+.button.start {
+  width: 100%;
+  background-color: blue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 /* Footer Section */
 
 footer {
   border-top: 1px solid black;
-  position: relative;
-  top: 4rem;
 }
 
 footer.flex {
