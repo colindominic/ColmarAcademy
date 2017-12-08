@@ -1,3 +1,70 @@
 html {
+  font-size: 16px;
+  color: black;
+}
 
+.container {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header Section */
+
+header {
+  height: 4rem;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+
+header.flex {
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+
+.flex.logo {
+  align-items: center;
+}
+
+.desktop-menu li {
+  padding-right: 1rem;
+}
+
+.desktop-menu li:last-child {
+  padding-right: 1.5rem;
+}
+
+/* Banner Section */
+
+.banner {
+  position: relative;
+  top: 4rem;
+}
+
+/* Footer Section */
+
+footer {
+  border-top: 1px solid black;
+  position: relative;
+  top: 4rem;
+}
+
+footer.flex {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  padding-left: 1.5rem;
+}
+
+footer .terms {
+  padding-right: 1.5rem;
 }
