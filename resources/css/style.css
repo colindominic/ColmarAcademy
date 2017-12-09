@@ -54,11 +54,11 @@ header.flex {
 }
 
 .banner-image {
-  max-width: 60%;
+  width: 60%;
 }
 
 .banner-image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   overflow: hidden;
   margin: 2rem 1.5rem;
@@ -100,25 +100,31 @@ header.flex {
 .motivation.flex {
   flex-direction: column;
   width: 60%;
+  margin: 2rem 1.5rem;
 }
 
 .section-image img {
   max-width: 100%;
   height: auto;
   overflow: hidden;
-  margin: 2rem 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .information.flex {
   flex-direction: column;
+  width: 40%;
+}
+
+.info {
+  width: 100%;
+}
+
+.info-img {
   width: 35%;
 }
 
-.info.flex {
-}
-
-.info img {
-  width: 35%;
+.info-img img {
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
