@@ -107,10 +107,12 @@ header.flex {
 
 /* Main-Section-1 */
 
+
+
 .motivation.flex {
   flex-direction: column;
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .section-image img {
@@ -120,13 +122,35 @@ header.flex {
   margin-bottom: 2rem;
 }
 
+.motivation h2 {
+  font-size: 2.3rem;
+}
+
+p.quote {
+  width: 95%;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  padding: 1.5rem 0;
+}
+
 .information.flex {
   flex-direction: column;
   width: 40%;
+  border-left: 1px solid gray;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.info.flex {
+  align-items: center;
 }
 
 .info {
   width: 100%;
+}
+
+.info:last-child {
+  background-color: gray;
 }
 
 .info-img {
@@ -137,15 +161,28 @@ header.flex {
   width: 100%;
   height: auto;
   overflow: hidden;
+  padding: 1rem;
 }
 
 .details.flex {
   flex-direction: column;
   width: 65%;
+  float: right;
+  position: relative;
+  left: 2rem;
+}
+
+.details.flex h3 {
+  font-size: 1.75rem;
 }
 
 .details.flex h4 {
+  padding: 0.5rem 0;
+  width: 85%;
+}
 
+.read-more {
+  color: blue;
 }
 
 /* Footer Section */
