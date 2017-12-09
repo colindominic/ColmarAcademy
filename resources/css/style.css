@@ -53,25 +53,35 @@ header.flex {
   align-items: center;
 }
 
-.banner-image {
+.banner-main {
   width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-image {
+  width: 100%;
 }
 
 .banner-image img {
   width: 100%;
   height: auto;
   overflow: hidden;
-  margin: 2rem 1.5rem;
+
 }
 
 .banner-info {
-  width: 26%;
+
 }
 
 .banner-info.flex {
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 4rem;
+
+  width: 40%;
+}
+
+.welcome {
+  width: 68%;
 }
 
 .banner-info h1 {
