@@ -237,18 +237,23 @@ p.quote {
 /* Footer Section */
 
 footer {
-  border-top: 1px solid black;
+
 }
 
 footer.flex {
+  border-top: 1px solid black;
   align-items: flex-start;
   justify-content: space-between;
 }
 
 footer .copyright {
-  padding-left: 1.5rem;
+  padding: 1rem 0 3rem 1.5rem;
 }
 
 footer .terms {
-  padding-right: 1.5rem;
+  padding: 1rem 1.5rem 3rem 0;
+}
+
+.terms li:first-child {
+  padding-right: 1rem;
 }
