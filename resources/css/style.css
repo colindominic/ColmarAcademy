@@ -185,18 +185,18 @@ p.quote {
 
 /* Courses Section */
 
-.course-list.flex {
+.course-list {
   background-color: gray;
+}
+
+.content.flex {
+  padding: 2rem 4.5rem;
   flex-direction: column;
   align-items: center;
 }
 
-.content {
-  padding: 2rem 4.5rem;
-}
-
 .course-list h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 2.3rem;
   text-align: center;
 }
@@ -204,17 +204,35 @@ p.quote {
 .courses.flex {
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .course.flex {
   flex-direction: column;
+  width: 30%;
+  margin: 1rem;
+  background-color: white;
 }
 
 .course-img img {
+  width: 100%;
   height: auto;
+  /*padding-bottom: 1rem;*/
 }
 
+.course-info {
+  padding: 1rem 1rem 1.5rem 1rem;
+  /*padding-bottom: 1.5rem;*/
+  height: 5.5rem;
+}
+
+.course-info h3 {
+  font-size: 1.35rem;
+}
+
+.course-title {
+  padding: 0.5rem 0;
+}
 
 /* Footer Section */
 
