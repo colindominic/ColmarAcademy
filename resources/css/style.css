@@ -234,6 +234,87 @@ p.quote {
   padding: 0.5rem 0;
 }
 
+/* Thesis Section */
+
+.thesis {
+  background-color: white;
+}
+
+.thesis-container.flex {
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.thesis-container h2 {
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+}
+
+.thesis-main.flex {
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.thesis-video video {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.thesis-main h2 {
+  font-size: 2.3rem;
+}
+
+.projects.flex {
+  flex-direction: column;
+  width: 40%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.project.flex {
+  align-items: center;
+}
+
+.project {
+  width: 100%;
+}
+
+.project:first-child {
+  background-color: gray;
+}
+
+.project-img {
+  width: 35%;
+}
+
+.project-img img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.project-info.flex {
+  flex-direction: column;
+  width: 65%;
+  float: right;
+  position: relative;
+  left: 2rem;
+}
+
+.project-info.flex h3 {
+  font-size: 1.75rem;
+}
+
+.project-info.flex h4 {
+  padding: 0.5rem 0;
+  width: 85%;
+}
+
 /* Footer Section */
 
 footer {
