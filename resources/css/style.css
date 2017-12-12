@@ -42,6 +42,39 @@ header.flex {
   padding-right: 1.5rem;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+
+  header.container {
+    max-width: 450px;
+    margin: auto;
+  }
+
+  .logo {
+    display: none
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+  }
+
+  .mobile-menu {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
+}
+
 /* Banner Section */
 
 .banner {
