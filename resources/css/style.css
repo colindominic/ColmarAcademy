@@ -69,19 +69,16 @@ header.flex {
 
 }
 
-.banner-info {
-
-}
-
 .banner-info.flex {
   flex-direction: column;
   justify-content: flex-start;
-
+  position: relative;
+  left: 1rem;
   width: 40%;
 }
 
 .welcome {
-  width: 68%;
+  width: 70%;
 }
 
 .banner-info h1 {
@@ -165,7 +162,6 @@ p.quote {
 .details.flex {
   flex-direction: column;
   width: 65%;
-  float: right;
   position: relative;
   left: 2rem;
 }
@@ -217,12 +213,10 @@ p.quote {
 .course-img img {
   width: 100%;
   height: auto;
-  /*padding-bottom: 1rem;*/
 }
 
 .course-info {
   padding: 1rem 1rem 1.5rem 1rem;
-  /*padding-bottom: 1.5rem;*/
   height: 5.5rem;
 }
 
@@ -243,7 +237,7 @@ p.quote {
 .thesis-container.flex {
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 .thesis-container h2 {
@@ -254,7 +248,7 @@ p.quote {
 .thesis-main.flex {
   flex-direction: column;
   width: 60%;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 0 1.5rem;
 }
 
 .thesis-video video {
@@ -271,7 +265,7 @@ p.quote {
 .projects.flex {
   flex-direction: column;
   width: 40%;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -301,7 +295,6 @@ p.quote {
 .project-info.flex {
   flex-direction: column;
   width: 65%;
-  float: right;
   position: relative;
   left: 2rem;
 }
@@ -316,10 +309,6 @@ p.quote {
 }
 
 /* Footer Section */
-
-footer {
-
-}
 
 footer.flex {
   border-top: 1px solid black;
