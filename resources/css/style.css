@@ -157,6 +157,7 @@ header.flex {
 
   .banner-info h1 {
     font-size: 2.3rem;
+    width: 60%;
   }
 
   .welcome {
@@ -219,15 +220,16 @@ p.quote {
   width: 100%;
 }
 
-.info:last-child {
-  background-color: gray;
-}
 
-.info-img {
+.info-img.desktop {
   width: 35%;
 }
 
-.info-img img {
+.info-img.mobile {
+  display: none;
+}
+
+.info-img.desktop img {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -242,7 +244,7 @@ p.quote {
 }
 
 .details.flex h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .details.flex h4 {
@@ -255,7 +257,42 @@ p.quote {
 }
 
 @media only screen and (max-width: 470px) {
+  .motivation.flex {
+    display: none;
+  }
 
+  .information.flex {
+    width: 100%;
+    margin: auto;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .info.flex {
+    flex-direction: column;
+  }
+
+  .info-img.desktop {
+    display: none;
+  }
+
+  .info-img.mobile {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .info-img.mobile img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .details.flex {
+    width: 100%;
+    position: static;
+    padding: 1.5rem 0rem 1.5rem 1rem;
+    text-align: left;
+  }
 }
 
 /* Courses Section */
