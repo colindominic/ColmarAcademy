@@ -11,6 +11,14 @@ html {
   display: flex;
 }
 
+@media only screen and (max-width: 470px) {
+
+  .container {
+    max-width: 470px;
+    margin: auto;
+  }
+}
+
 /* Header Section */
 
 header {
@@ -46,12 +54,7 @@ header.flex {
   display: none;
 }
 
-@media only screen and (max-width: 450px) {
-
-  header.container {
-    max-width: 450px;
-    margin: auto;
-  }
+@media only screen and (max-width: 470px) {
 
   .logo {
     display: none
@@ -99,7 +102,6 @@ header.flex {
   width: 100%;
   height: auto;
   overflow: hidden;
-
 }
 
 .banner-info.flex {
@@ -133,6 +135,46 @@ header.flex {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 470px) {
+
+  .banner {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-main{
+    width: 100%;
+    margin: auto;
+  }
+
+  .banner-info.flex {
+    width: 100%;
+    position: static;
+    justify-content: center;
+  }
+
+  .banner-info h1 {
+    font-size: 2.3rem;
+  }
+
+  .welcome {
+    width: 100%;
+    margin: 2rem 1rem;
+  }
+
+  .banner-info h4 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .button.start {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Main Section */
@@ -210,6 +252,10 @@ p.quote {
 
 .read-more {
   color: blue;
+}
+
+@media only screen and (max-width: 470px) {
+
 }
 
 /* Courses Section */
