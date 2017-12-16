@@ -265,6 +265,7 @@ p.quote {
     width: 100%;
     margin: auto;
     padding: 1rem 1rem 0rem 1rem;
+    border-bottom: 1px solid gray;
   }
 
   .info.flex {
@@ -342,6 +343,57 @@ p.quote {
 
 .course-title {
   padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 470px) {
+  .course-list {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-bottom: 1px solid gray;
+  }
+
+  .content.flex {
+    padding: 2rem 0;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-list h2 {
+    padding: 0;
+  }
+
+  .courses.flex {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  .course.flex {
+    width: 90%;
+    margin: 0;
+    padding: 0rem 1rem 0.5rem 1rem;
+  }
+
+  .course-img {
+    display: none;
+  }
+
+  .course-info {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 1.5rem 0 1.5rem 1rem;
+  }
+
+  .course-info h4 {
+    display: none;
+  }
 }
 
 /* Thesis Section */
@@ -424,6 +476,30 @@ p.quote {
   width: 85%;
 }
 
+@media only screen and (max-width: 470px) {
+  .thesis-main.flex {
+    width: 100%;
+    padding: 0rem 0rem 1.5rem 0rem;
+  }
+
+  .thesis-video {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .thesis-video video {
+    margin: 0;
+  }
+
+  .thesis-main.flex h2, .thesis-main.flex p {
+    display: none;
+  }
+
+  .projects.flex {
+    display: none;
+  }
+}
+
 /* Footer Section */
 
 footer.flex {
@@ -442,4 +518,18 @@ footer .terms {
 
 .terms li:first-child {
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 470px) {
+ footer.flex {
+   border: none;
+ }
+
+ footer .terms {
+   display: none;
+ }
+
+ footer .copyright {
+   padding: 1rem 0 1rem 1rem;
+ }
 }
