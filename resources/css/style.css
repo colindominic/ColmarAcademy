@@ -1,6 +1,8 @@
 html {
   font-size: 16px;
   color: black;
+  font-family: "PT Sans";
+  font-weight: 400;
 }
 
 .container {
@@ -40,6 +42,22 @@ header.flex {
 
 .flex.logo {
   align-items: center;
+}
+
+.logo span {
+  font-size: 1.5rem;
+}
+
+.logo span:last-child {
+  color: #c0c2ce;
+}
+
+nav li {
+  font-size: 1.2rem;
+}
+
+nav li:hover {
+  color: #005b96;
 }
 
 .desktop-menu li {
@@ -82,7 +100,7 @@ header.flex {
 
 .banner {
   margin-top: 4rem;
-  background-color: grey;
+  background-color: #d2d4dc;
 }
 
 .banner.flex {
@@ -131,10 +149,15 @@ header.flex {
 
 .button.start {
   width: 100%;
-  background-color: blue;
+  background-color: #35a79c;
+  border-radius: 10px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
+}
+
+.button:hover {
+  background-color: #009688;
 }
 
 @media only screen and (max-width: 470px) {
@@ -207,7 +230,7 @@ p.quote {
 .information.flex {
   flex-direction: column;
   width: 40%;
-  border-left: 1px solid gray;
+  border-left: 1px solid #e5e6eb;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
@@ -220,6 +243,9 @@ p.quote {
   width: 100%;
 }
 
+.info:hover {
+  background-color: #d2d4dc;
+}
 
 .info-img.desktop {
   width: 35%;
@@ -253,7 +279,11 @@ p.quote {
 }
 
 .read-more {
-  color: blue;
+  color: #7289da;
+}
+
+.read-more:hover {
+  color: #005b96;
 }
 
 @media only screen and (max-width: 470px) {
@@ -299,7 +329,7 @@ p.quote {
 /* Courses Section */
 
 .course-list {
-  background-color: gray;
+  background-color: #e5e6eb;
 }
 
 .content.flex {
@@ -325,6 +355,10 @@ p.quote {
   width: 30%;
   margin: 1rem;
   background-color: white;
+}
+
+.course.flex:hover {
+  background-color: #c0c2ce;
 }
 
 .course-img img {
@@ -445,8 +479,8 @@ p.quote {
   width: 100%;
 }
 
-.project:first-child {
-  background-color: gray;
+.project:hover {
+  background-color: #d2d4dc;
 }
 
 .project-img {
@@ -518,6 +552,10 @@ footer .terms {
 
 .terms li:first-child {
   padding-right: 1rem;
+}
+
+.terms li:hover {
+  color: #005b96;
 }
 
 @media only screen and (max-width: 470px) {
