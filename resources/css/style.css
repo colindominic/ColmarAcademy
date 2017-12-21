@@ -54,6 +54,7 @@ header.flex {
 
 nav li {
   font-size: 1.2rem;
+  transition: color 200ms ease-in;
 }
 
 nav li:hover {
@@ -131,11 +132,12 @@ nav li:hover {
 }
 
 .welcome {
-  width: 70%;
+  width: 75%;
 }
 
 .banner-info h1 {
   font-size: 3rem;
+  font-weight: 700;
 }
 
 .banner-info h4 {
@@ -150,13 +152,14 @@ nav li:hover {
 .button.start {
   width: 100%;
   background-color: #35a79c;
+  transition: background-color 300ms ease-in;
   border-radius: 10px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
-.button:hover {
+.button.start:hover {
   background-color: #009688;
 }
 
@@ -218,6 +221,7 @@ nav li:hover {
 
 .motivation h2 {
   font-size: 2.3rem;
+  font-weight: 700;
 }
 
 p.quote {
@@ -241,6 +245,7 @@ p.quote {
 
 .info {
   width: 100%;
+  transition: background-color 300ms ease-in;
 }
 
 .info:hover {
@@ -280,6 +285,7 @@ p.quote {
 
 .read-more {
   color: #7289da;
+  transition: color 200ms ease-in;
 }
 
 .read-more:hover {
@@ -341,6 +347,7 @@ p.quote {
 .course-list h2 {
   padding-bottom: 1rem;
   font-size: 2.3rem;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -355,6 +362,7 @@ p.quote {
   width: 30%;
   margin: 1rem;
   background-color: white;
+  transition: background-color 300ms ease-in;
 }
 
 .course.flex:hover {
@@ -413,16 +421,25 @@ p.quote {
     padding: 0rem 1rem 0.5rem 1rem;
   }
 
+  .course.flex:hover {
+    background-color: white;
+  }
+
   .course-img {
     display: none;
   }
 
   .course-info {
     background-color: gray;
+    transition: background-color 300ms ease-in;
     width: 100%;
     margin: auto;
     height: auto;
     padding: 1.5rem 0 1.5rem 1rem;
+  }
+
+  .course-info:hover {
+    background-color: #555;
   }
 
   .course-info h4 {
@@ -443,8 +460,8 @@ p.quote {
 }
 
 .thesis-container h2 {
-  padding-bottom: 1rem;
   font-size: 2.3rem;
+  font-weight: 700;
 }
 
 .thesis-main.flex {
@@ -477,6 +494,7 @@ p.quote {
 
 .project {
   width: 100%;
+  transition: background-color 300ms ease-in;
 }
 
 .project:hover {
@@ -548,6 +566,10 @@ footer .copyright {
 
 footer .terms {
   padding: 1rem 1.5rem 3rem 0;
+}
+
+.terms li {
+  transition: color 200ms ease-in;;
 }
 
 .terms li:first-child {
